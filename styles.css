@@ -108,16 +108,18 @@ body{
 /* about page style */
 .two-column-wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 5fr;
 
 }
 
 .profile-img-wrapper img{
-    width: 100%;
+    height: 150px;
+    width: 150px;
+    margin-left: 40px;
 }
 
 .profile-content-wrapper{
-    padding: 30px;
+    /* padding: 30px; */
 }
 .profile-content-wrapper h1{
     color: lightseagreen;
